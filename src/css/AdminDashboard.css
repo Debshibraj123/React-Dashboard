@@ -1,0 +1,97 @@
+/* AdminDashboard.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+.admin-dashboard {
+    margin: 20px;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    margin-left: 33px;
+    padding: 8px;
+    width: 30%;
+  }
+  
+  table {
+    width: 96%;
+    border-collapse: collapse;
+    margin-left: 33px;
+    
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #b6b0b0;
+  }
+  
+  tr.selected {
+    background-color: #f0f0f0;
+  }
+  
+  .pagination {
+    margin-top: 19px;
+    display: flex;
+    float: right;
+    margin-right: 38px;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* .pagination button:hover {
+    background-color: #45a049;
+  } */
+  
+  .delete-selected {
+    position: absolute;
+    top: 10px;
+    right: 53px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .delete-selected:hover {
+    background-color: #d32f2f;
+  }
+  
+  .edit, .save, .delete {
+    padding: 8px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .edit:hover, .save:hover, .delete:hover {
+    background-color: #ddd;
+  }
+  
+  .icon {
+    font-size: 18px;
+    margin-right: 5px;
+  }
+  .pagination
+  {
+    margin-left: 28px;
+  }
+
+  .previous-page , .next-page
+  {
+   background-color: black;
+   color: #f0f0f0;
+  }
